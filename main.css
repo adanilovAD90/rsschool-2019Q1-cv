@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1024px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header {
+    background: black;
+}
+
+header li {
+    display: inline-block;
+    color: white;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+main {
+    border: 5px solid black;
+    position: relative;
+}
+
+.name, .contacts {
+    margin: 30px 50px 30px 0;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: black;  
+}
+
+.contacts img {
+    margin: 0 5px -5px 0;
+}
+
+.contacts li {
+    list-style-type: none;
+}
+
+.photo img {
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.summary, .skills, .examples, .edu, .eng {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.skills li {
+    list-style-type: none;
+}
+
+.examples a{
+    color: black;
+}
+
+.examples a:hover {
+    color: red;
+}
+
+.edu li{
+    list-style-type: none;
+}
+
+.summary p {
+    width: 50%;
+    margin-left: 25%;
+}
